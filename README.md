@@ -12,27 +12,25 @@ This project was created to practice GUI programming, file handling, and JSON da
 
 Password Generator
 
-Creates strong random passwords with a mix of letters, numbers, and symbols.
+- Creates strong random passwords with a mix of letters, numbers, and symbols.
 
-Automatically copies the generated password to the clipboard.
+- Automatically copies the generated password to the clipboard.
 
-Save & Manage Passwords
+- Save & Manage Passwords
 
-Stores credentials securely in a local new_data.json file.
+- Stores credentials securely in a local new_data.json file.
 
-Prevents overwriting by updating the file with new entries.
+- Prevents overwriting by updating the file with new entries.
 
-Search Functionality
+- Search Functionality: Instantly look up saved credentials for any website.
 
-Instantly look up saved credentials for any website.
+- Displays email/username and password in a pop-up.
 
-Displays email/username and password in a pop-up.
+- User-Friendly GUI
 
-User-Friendly GUI
+- Built with Tkinter for a clean and interactive interface.
 
-Built with Tkinter for a clean and interactive interface.
-
-Includes buttons for Generate Password, Add, and Search.
+- Includes buttons for Generate Password, Add, and Search.
 
 🖼️ Screenshots
 
@@ -44,32 +42,37 @@ Includes buttons for Generate Password, Add, and Search.
 
 Clone the Repository
 
-git clone https://github.com/your-username/password-manager.git
-cd password-manager
+    git clone https://github.com/your-username/password-manager.git
+    cd password-manager
 
 Install Dependencies
 
-Make sure you have Python 3 installed.
-Install the required package: pip install pyperclip
-Run the Application: python main.py
-Add your own logo.png file to the project directory for the GUI logo.
+    Make sure you have Python 3 installed.
+    Install the required package: pip install pyperclip
+    Run the Application: python main.py
+    Add your own logo.png file to the project directory for the GUI logo.
 
 📂 Project Structure
+
 password-manager/
-│── main.py         # Main application script
-│── new_data.json   # Stored credentials (auto-created after first save)
-│── logo.png        # App logo (add your own)
-│── README.md       # Project documentation
+
+  │── main.py         # Main application script
+  
+  │── new_data.json   # Stored credentials (auto-created after first save)
+  
+  │── logo.png        # App logo (add your own)
+  
+  │── README.md       # Project documentation
 
 🛠️ Tech Stack
 
-Python 3
-Tkinter (GUI)
-JSON (data storage)
-Pyperclip (clipboard support)
+    Python 3
+    Tkinter (GUI)
+    JSON (data storage)
+    Pyperclip (clipboard support)
 
 🔮 Future Improvements
 
-Encrypt stored credentials instead of plain JSON.
-Add password strength meter.
-Implement user authentication (master password).
+    Encrypt stored credentials instead of plain JSON.
+    Add password strength meter.
+    Implement user authentication (master password).
